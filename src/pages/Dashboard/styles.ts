@@ -61,6 +61,10 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+      .sort-icon{
+        margin-left: 0.7rem;
+        cursor: pointer;
+      }
     }
 
     td {
@@ -92,4 +96,6 @@ export const TableContainer = styled.section`
       border-radius: 0 8px 8px 0;
     }
   }
+
+
 `;

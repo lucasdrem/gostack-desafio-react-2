@@ -8,6 +8,10 @@ export const Container = styled.div<ContainerProps>`
   background: #5636d3;
   padding: 30px 0;
 
+  .active{
+    border-bottom: 2px solid #FF872C;
+  }
+  
   header {
     width: 1120px;
     margin: 0 auto;
@@ -15,7 +19,7 @@ export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     nav {
       a {
         color: #fff;
@@ -30,6 +34,7 @@ export const Container = styled.div<ContainerProps>`
         &:hover {
           opacity: 0.6;
         }
+
       }
     }
   }
